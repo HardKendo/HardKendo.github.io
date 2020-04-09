@@ -325,3 +325,71 @@ body {
     margin-left: 734px;
     width: 400px;
 }
+
+.trending-product {
+    position: relative;
+    padding-top: 119px;
+}
+
+.trending {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    float: left;
+}
+
+.trend-explore {
+    float: right;
+    margin-left: 667px;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+    margin-top: -25px;
+}
+.trend-explore:hover {
+    color: #6c6c6c;
+}
+
+.lines-img {
+    padding-top: 100px;
+}
+
+.trend-image1,
+.trend-image2,
+.trend-image3,
+.trend-image4,
+.trend-image5,
+.trend-image6 {
+    float: left;
+}
+
+.trend-image2,
+.trend-image3,
+.trend-image5,
+.trend-image6 {
+    margin-left: 30px;
+}
+
+.trend-image1,
+.trend-image2,
+.trend-image3 {
+    margin-bottom: 30px;
+}
+
+.trend-image1:hover,
+.trend-image2:hover,
+.trend-image3:hover,
+.trend-image4:hover,
+.trend-image5:hover,
+.trend-image6:hover {
+    outline: 1px solid rgba(33, 33, 33, 0.35);
+    box-shadow: 0 5px 10px 10px  rgba(33, 33, 33, 0.35);
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+
